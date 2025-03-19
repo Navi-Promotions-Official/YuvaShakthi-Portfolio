@@ -852,6 +852,11 @@ h2 {
 h3 {
   font: normal 700 2.8rem/1.2 var(--_font-accent);
   color: #6034c0;
+  color: var(--t-accent);
+  background: var(--t-accent);
+  background: -webkit-linear-gradient(15deg, var(--t-accent) 0%, var(--t-secondary) 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 @media only screen and (min-width: 768px) {
   h3 {

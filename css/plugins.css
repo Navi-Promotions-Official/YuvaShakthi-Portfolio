@@ -63763,6 +63763,7 @@ button.swiper-pagination-bullet {
 }
 .pswp img {
   max-width: none;
+  width: 50%;
 }
 
 /* style is added when JS option showHideOpacity is set to true */
