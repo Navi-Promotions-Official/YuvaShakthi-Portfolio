@@ -53,7 +53,7 @@
 /* Template Backgrounds Start */
 /* ------------------------------------------------*/
 .image-background {
-  background-image: url("img/demo/2560x1440-bg.webp");
+  background-image: url("C:\Users\Navi Promotions\Documents\GitHub\YuvaShakthi-Portfolio\img\backgrounds\1000x1000_bg01.svg");
 }
 
 
@@ -1029,7 +1029,19 @@ p.additional-text a {
   background-color: transparent;
   border: 1px solid var(--stroke-elements);
   color: var(--t-medium);
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
+
+.rounded-tag.tag-outline:hover {
+  background-color: #7a6d96;
+  color: #fff; /* Change text color */
+  transform: scale(1.05); /* Slight scale effect */
+}
+
 
 .text-link {
   color: inherit;
@@ -3443,6 +3455,7 @@ form textarea:required:valid {
 .gallery__descr p {
   display: none;
 }
+
 .gallery__descr .rounded-tag {
   display: -webkit-inline-box;
   display: -moz-inline-box;
@@ -3514,6 +3527,7 @@ form textarea:required:valid {
        border-radius: var(--_radius-xl);
   padding: 3rem;
   background-color: rgba(0, 0, 0, 0.4);
+  max-width: 700px !important;
 }
 .pswp__caption__center h5 {
   font: normal 700 -moz-calc(var(--_size) * 1.5)/1.2 var(--_font-accent);

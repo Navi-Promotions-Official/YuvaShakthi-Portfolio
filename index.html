@@ -38,6 +38,9 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <!-- Template Styles End -->
 
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
     <!-- Custom Browser Color Start -->
     <meta name="theme-color" media="(prefers-color-scheme: light)" content="#dcdce7">
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#111111">
@@ -290,7 +293,7 @@
                   <a href="img/Portfolio/portfolio1.jpeg" data-image="img/Portfolio/portfolio1.jpeg" class="gallery__link" itemprop="contentUrl" data-size="1400x1400">
                     <img src="img/Portfolio/portfolio1.jpeg" class="gallery__image" itemprop="thumbnail" alt="Image description">
                   </a>
-                  <figcaption class="gallery__descr" itemprop="caption description">
+                  <figcaption class="gallery__descr" itemprop="caption description" style="max-width: 670px !important;">
                     <h5>EcoTrack</h5>
                     <p class="small">EcoTrack is a smart sustainability tracking system that uses AI-powered models for accurate data analysis, enabling real-time insights. It rewards citizens with EcoPoints for eco-friendly actions, promoting sustainable behavior through gamification.
                     </p>
@@ -303,7 +306,7 @@
                   <a href="img/Portfolio/portfolio2.png" data-image="img/Portfolio/portfolio2.png" class="gallery__link" itemprop="contentUrl" data-size="1400x1400">
                     <img src="img/Portfolio/portfolio2.png" class="gallery__image" itemprop="thumbnail" alt="Image description">
                   </a>
-                  <figcaption class="gallery__descr opposite" itemprop="caption description">
+                  <figcaption class="gallery__descr opposite" itemprop="caption description" style="max-width: 500px !important;">
                     <h5 class="opposite">Agronomy Net</h5>
                     <!-- <div class="card__tags d-flex flex-wrap">
                       <span class="rounded-tag opposite">ReadMore</span>
@@ -409,11 +412,11 @@
                 <div class="col-12 col-xl-8 grid-item about-descr">
                   <p class="about-descr__text animate-in-up">
                     I am a web developer skilled in HTML, CSS, JavaScript, Node.js, and React.js, with experience in React Native. 
-                    I focus on creating responsive, user-friendly interfaces and optimizing UI/UX for seamless experiences.
+                    I specialize in responsive UI/UX design and scalable web solutions.
                 </p>
                 <p class="about-descr__text animate-in-up">
-                  I won the Smart India Hackathon 2023 and received the Dr. Kalam Young Achiever Award 2024. With two frontend development internships,
-                   I gained expertise in building scalable web solutions and am eager to contribute to impactful projects.
+                  Winner of Smart India Hackathon 2023 and recipient of the Dr. Kalam Young Achiever Award 2024, 
+                  I have completed two frontend development internships and am eager to contribute to impactful projects.
                 </p>                
                   <div class="btn-group about-descr__btnholder animate-in-up">
                     <a class="btn mobile-vertical btn-default btn-hover btn-hover-accent" href="assets/files/yuvashakthi resume.pdf" download="yuvashakthi resume.pdf">
@@ -447,7 +450,7 @@
                   <div class="about-info__item animate-in-up">
                     <h6>
                       <small class="top">Location</small>
-                      Theni,Tamilnadu
+                      Theni,  Tamilnadu
                     </h6>
                   </div>
                 </div>
@@ -490,7 +493,7 @@
                       <h4 class="cards__title animate-in-up">Full-Stack Web Development</h4>
                       <div class="cards__tags d-flex flex-wrap animate-in-up">
                         <span class="rounded-tag tag-outline">Node.js</span>
-                        <span class="rounded-tag tag-outline">Database Management</span>
+                        <span class="rounded-tag tag-outline">Mango Database</span>
                       </div>
                       <p class="small cards__text animate-in-up">
                         Developed multiple full-stack applications, including IPdf, I Like Pdf, and Convo-Box. 
@@ -993,7 +996,7 @@
               <form class="form contact-form" id="contact-form">
                 <!-- Hidden Required Fields -->
                 <input type="hidden" name="service_id" value="service_y5rda54">
-                <input type="hidden" name="template_id" value="template_dzmahmt">
+                <input type="hidden" name="template_id" value="template_mlu9yza">
                 <input type="hidden" name="user_id" value="IfxowXxtbOIeiFjvL">
                 <!-- END Hidden Required Fields-->
             
@@ -1028,7 +1031,7 @@
               document.getElementById("contact-form").addEventListener("submit", function (event) {
                   event.preventDefault(); // Prevent default form submission
 
-                  emailjs.send("service_y5rda54", "template_dzmahmt", {
+                  emailjs.send("service_y5rda54", "template_mlu9yza", {
                       name: document.querySelector("input[name='name']").value,
                       company: document.querySelector("input[name='company']").value,
                       email: document.querySelector("input[name='email']").value,
