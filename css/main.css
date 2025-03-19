@@ -103,7 +103,7 @@
   --base--dark: #111111;
   --base-tint--dark: #161616;
   --base-shade--dark: #000000;
-  --accent--dark: #E4B8BF;
+  --accent--dark: #6034c0;
   --secondary--dark: #CEC4EF;
   --secondary-rgba--dark: rgba(206,196,239,0.2);
   --stroke-controls--dark: #4B4B51;
@@ -112,7 +112,7 @@
   --t-bright--dark: #e9e9f1;
   --t-medium--dark: #C7C6D3;
   --t-muted--dark: #A1A1AF;
-  --t-accent--dark: #E1BAC5;
+  --t-accent--dark: #6034c0;
   --t-secondary--dark: #CEC4EF;
   --t-disabled--dark: #8B8A91;
   --t-placeholder--dark: #58585E;
@@ -851,7 +851,7 @@ h2 {
 
 h3 {
   font: normal 700 2.8rem/1.2 var(--_font-accent);
-  color: #E1BAC5;
+  color: #6034c0;
 }
 @media only screen and (min-width: 768px) {
   h3 {
@@ -3513,7 +3513,7 @@ form textarea:required:valid {
 .pswp__caption__center h5 {
   font: normal 700 -moz-calc(var(--_size) * 1.5)/1.2 var(--_font-accent);
   font: normal 700 calc(var(--_size) * 1.5)/1.2 var(--_font-accent);
-  color: var(--t-per-bright-light);
+  color: #6034c0;
   margin-bottom: 1.2rem;
 }
 .pswp__caption__center .rounded-tag {
@@ -3818,7 +3818,7 @@ form textarea:required:valid {
 .tools-cards__card:hover {
   transform: scale(1.1); /* Slightly enlarge the card */
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Add shadow effect */
-  background-color: rgba(0, 0, 0, 0.9); /* Slight color change */
+  background-color: #7a6d96; /* Slight color change */
  
 }
 
